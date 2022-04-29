@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<!-- saved from url=(0096)file:///C:/Users/Gabriel/Documents/gab%20(moi)/HTML/Tests/Belivemy/le_Reste/2/Supercars.net.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <title>Supercars.net</title>
+    
+  <style>
+
+ * {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body {
+height: 100vh;
+background: #131416;
+display: flex;
+    justify-content: center;
+}
+.box {
+    margin-top: 30px;
+  width: 1110px;
+  height: 100px;
+  background-color: rgb(31, 31, 31);
+  position: relative;
+}
+.box::before,
+.box::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(45deg, #ff0000, #00f0f0, #00ff00, #0000ff, #ff0000, #00f0f0, #00ff00, #0000ff, #f00f0f);
+  width: 100%;
+  height: 100%;
+  transform: scale(1.02);
+  z-index: -1;
+  background-size: 500%;
+  animation: animate 20s infinite;
+}
+.box::after {
+  filter: blur(20px);
+}
+@keyframes animate {
+  0% { background-position: 0 0; }
+  50% { background-position: 300% 0; }
+  100% { background-position: 0 0; }
+}
+    span {
+position: absolute;
+      text-decoration: none;
+      color: white;
+      font-size: 60px;
+      font-family: arial, sans-serif;
+      margin-top: 10px;
+      margin-left: 335px;
+    }
+h1{
+margin-top: 250px;
+font-size: 40px;
+
+}
+h1, p {
+position: absolute;
+align-items: center;
+justify-content: center;
+font-family: arial, sans-serif;
+color: #FCD7CF;
+}
+    p {
+font-size: 25px;
+color: #FCD7CF;
+margin-top: 350px;
+margin-left: 170px;
+margin-right: 150px;
+text-align: center;
+    }
+
+ span a {
+height: 30px;
+font-size: 20px;
+text-decoration: none;
+margin-top: 610px;
+font-family: arial, sans-serif;
+color: #FCD7CF;
+margin-left: -310px;
+position: absolute;
+background: black;
+border-radius: 30px;
+width: 300px;
+text-align: center;
+  }</style>
+</head>
+
+<body>
+<div class="box">
+<a href="file:///C:/Users/Gabriel/Documents/gab%20(moi)/HTML/Tests/Belivemy/le_Reste/2/Supercars.net.html#"><span>Supercars.net</span></a>
+</div><h1>Bienvenue dans <strong>Supercars.net</strong> !</h1>
+    
+    <p>
+        Supercars.net est un site présentant les plus belles supercars et hypercars de la planète, sous forme de photos, de vidéos... Alors que vous les connaissiez ou pas, que vous les aimiez ou pas, vous apprendrez certainement des choses grâce à nos articles. Alors profitez et bonne lecture ! </p>
+    
+    <span>  <a href="file:///C:/Users/Gabriel/Documents/gab%20(moi)/HTML/Tests/Belivemy/le_Reste/2/articles.html">Accéder_aux_articles</a></span>
+</body></html>
